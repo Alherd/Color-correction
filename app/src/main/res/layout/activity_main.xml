@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/image_fragment_container"
+            android:layout_weight="0.8"/>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/filters_fragment_container"
+            android:layout_weight="0.2">
+            <ProgressBar
+                android:id="@+id/progress_circular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+    </FrameLayout>
+            <!--android:name="poms.edu.colorcorrectionclient.fragments.FiltersFragment" !-->
+
+</LinearLayout>
